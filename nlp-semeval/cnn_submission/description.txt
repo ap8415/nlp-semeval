@@ -1,0 +1,6 @@
+The results in this file were generated using a simple CNN architecture, involving:
+- an embedding layer
+- a 2d convolutional layer, activated with ReLU
+- a linear layer to obtain predictions, activated with log-softmax to obtain normalized probabilities for all the classes
+The class selected is the argmax of the predictions vector
+- preprocessing by removing emoticons, stemming and lemmatizing.
